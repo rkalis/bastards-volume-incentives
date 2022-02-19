@@ -1,0 +1,23 @@
+{
+  "name": "bastards-volume-incentives",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rkalis/bastards-volume-incentives.git",
+  "author": "Rosco Kalis <roscokalis@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.1",
+    "random-seed": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^16.11.10",
+    "@types/random-seed": "^0.3.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "pick": "ts-node index.ts"
+  }
+}
