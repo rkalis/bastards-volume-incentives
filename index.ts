@@ -62,7 +62,7 @@ const run = async (fromBlock: number, toBlock: number) => {
     !!event.otherLogs.find((innerEvent) => isOpenSeaTrade(innerEvent) || isLooksRareTrade(innerEvent))
   ));
 
-  console.log(`Found ${transfersInsideTradeTransactions.length} transfers within sale transactions`);
+  console.log(`Found ${transfersInsideTradeTransactions.length} sale transfers`);
 
   // Extract the "to" field from every transfer event and convert it to an address
   const buyers = transfersInsideTradeTransactions.map((event) => topicToAddress(event.topics[2]));
