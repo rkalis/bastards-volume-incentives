@@ -16,6 +16,20 @@ yarn pick <fromBlock> <toBlock>
 ```
 
 ### Results
+#### Week 9 (02/28 - 03/06)
+- Start block [`14291335`](https://etherscan.io/block/14291335) (2022/02/28 00:00:00 UTC)
+- End block [`14336401`](https://etherscan.io/block/14336401) (2022/03/06 23:59:59 UTC)
+
+```
+yarn pick 14291335 14336401
+Found 68 transfers
+Found 31 sale transfers
+Found 21 unique buyers
+Initialised random generator with seed 0x8ef7ab6f1be5dc1883d59f8627aff7a3868a3e248f932f5923fd15cdec69559d
+Winner: 0xD4bE54fc8dA5F7eA6D2cBDA658a2EA52b0007d2A
+✨  Done in 5.30s.
+```
+
 #### Week 8 (02/21 - 02/27)
 - Start block [`14246088`](https://etherscan.io/block/14246088) (2022/02/21 00:00:06 UTC)
 - End block [`14291334`](https://etherscan.io/block/14291334) (2022/02/27 23:59:40 UTC)
